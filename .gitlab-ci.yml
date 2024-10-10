@@ -1,7 +1,5 @@
 pages:
   stage: deploy
-  tags:
-    - Linux-Ubuntu_22.04-Runner  # Bổ sung tag vào job
   script:
     - mkdir .public
     - cp -r * .public
